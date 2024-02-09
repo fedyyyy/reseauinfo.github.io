@@ -1,0 +1,33 @@
+hgroup{
+    color: red;
+}
+div{
+    color: green;
+}
+span{
+    color: yellow;
+}
+figure {
+    border: solid black;
+    display:block;
+    max-width: 200px;
+    margin: auto;
+    }
+   img {
+    max-width:200px;
+    max-height: 200px;
+    }
+   figcaption {
+    background-color:black;
+    color:white;
+    text-align:center;
+    }
+img{
+    width: 200px;
+    transition: transform .1s;
+    }
+    img:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5);
+        }
